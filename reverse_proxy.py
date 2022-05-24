@@ -62,7 +62,7 @@ def redo_request(client_sock, request):
 
     tasks.append(request_target(client_sock, request))
 
-    # TODO: get all uncompleted tastks back to queue
+    # TODO: get all uncompleted tasks back to queue
     # for request in pending_requests:
     #     tasks.append(request(request[0], request[1]))
 
